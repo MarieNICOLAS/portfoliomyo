@@ -1,0 +1,29 @@
+/* Styles pour la bannière */
+.banner {
+    position: relative;
+    background-image: url('img/dev.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center; /* Centre le texte horizontalement */
+}
+
+.banner img {
+    width: 100%;
+    height: 200px;
+    padding-top: 100px;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* Styles pour le titre "Bienvenue sur mon portfolio" */
+.highlighted-title {
+    position: absolute;
+    top: 60%; /* Centre verticalement le titre */
+    left: 50%; /* Centre horizontalement le titre */ 
+    transform: translate(-50%, -50%); /* Centre parfaitement le titre */   
+    color: #ffffff; /* Couleur du texte */
+    font-size: 2em; /* Taille de la police */
+    text-align: center;
+}

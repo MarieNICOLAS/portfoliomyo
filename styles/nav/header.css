@@ -1,0 +1,29 @@
+header{
+    position: fixed;
+    top: 0; /* Fixe la barre en haut de la fenêtre du navigateur */
+    left: 0;
+    right: 0;
+    background-color:#a5b4fc;
+    padding: 10px 25px;
+    z-index: 999;
+}
+footer{
+    position: relative;
+    background-color:#a5b4fc;
+    padding: 10px 25px;
+}
+
+footer,
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+nav a {
+    margin-left: 30px;
+    font-size: small;
+    color: #242424;
+    text-decoration: none;
+} 

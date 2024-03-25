@@ -1,0 +1,19 @@
+ARCHITECHTURE
+mn_portfolio/
+    index.php
+    img/
+    js/
+    pages/
+        html/
+        parcours_pro/
+            parcours_pro.php
+        php/
+            information.php
+            veille_tech.php
+        utils/
+            footer.php
+            header.php
+    ressources/
+        CV_NICOLAS Marie23.pdf
+    styles/
+        styles.css

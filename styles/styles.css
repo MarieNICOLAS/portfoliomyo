@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    color: #ffffff; 
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    background-color: #1f2039;
+}
+
+
+
+
+
+
+/*BODY*/
+h1{
+    padding: 50px;
+    font-size: 3.5em;
+    color: #f9f8ff;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+h2, 
+h3{
+    padding: 30px;
+    font-size: 2.5em;
+    color: #f9f8ff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p,
+li{
+    font-size: 1.1em;
+    color: #f9f8ff;
+}
+
+.carre-contenu {
+    display: flex; 
+    align-items: center; 
+    text-align: center;
+}
+
+.column {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.lien-icone{
+    margin-left: 15px;
+}
+
+.lien-icone:hover {
+    opacity: 0.5;
+}
+
+.lien-icone img{
+    width: 35px;
+    height: 35px;
+}
+
+.carre-contenu ul {
+    margin-top: 30px;
+}
+.carre-contenu h2{
+    width: 1.5rem;
+}
+section {
+    padding: 80px;
+}
+.accordion-container{
+    text-align: center;
+}
+.accordion {
+    cursor: pointer;
+    /* color: #464ac5; */
+    padding: 18px;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+/* .accordion p{
+    
+} */
+.panel {
+    padding: 0 18px;
+    display: none;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
